@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.side-panel{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px 10px rgb(218, 209, 209);
+}
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+}
+#content{
+    width: 1000px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
